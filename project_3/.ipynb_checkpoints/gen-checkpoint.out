@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "generate_images.py", line 39, in <module>
+    test_dataloader = DataLoader(mnist_dataset_test, batch_size=batch_size, shuffle=False, num_workers=1)
+NameError: name 'batch_size' is not defined

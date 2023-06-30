@@ -1,0 +1,4 @@
+usage: main_free.py [-h] [--output_prefix OUTPUT_PREFIX] [-c Path]
+                    [--resume PATH] [-e] [--pretrained]
+                    DIR
+main_free.py: error: the following arguments are required: DIR

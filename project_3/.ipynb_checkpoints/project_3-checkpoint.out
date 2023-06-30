@@ -1,0 +1,16 @@
+/cephfs/dongyulong/work/miniconda3/envs/gen/lib/python3.7/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /cephfs/dongyulong/work/miniconda3/envs/gen/lib/python3.7/site-packages/torchvision/image.so: undefined symbol: _ZNK3c106IValue23reportToTensorTypeErrorEv
+  warn(f"Failed to load image Python extension: {e}")
+Traceback (most recent call last):
+  File "main.py", line 2, in <module>
+    import torchvision.datasets
+  File "/cephfs/dongyulong/work/miniconda3/envs/gen/lib/python3.7/site-packages/torchvision/__init__.py", line 7, in <module>
+    from torchvision import models
+  File "/cephfs/dongyulong/work/miniconda3/envs/gen/lib/python3.7/site-packages/torchvision/models/__init__.py", line 18, in <module>
+    from . import quantization
+  File "/cephfs/dongyulong/work/miniconda3/envs/gen/lib/python3.7/site-packages/torchvision/models/quantization/__init__.py", line 3, in <module>
+    from .mobilenet import *
+  File "/cephfs/dongyulong/work/miniconda3/envs/gen/lib/python3.7/site-packages/torchvision/models/quantization/mobilenet.py", line 1, in <module>
+    from .mobilenetv2 import *  # noqa: F401, F403
+  File "/cephfs/dongyulong/work/miniconda3/envs/gen/lib/python3.7/site-packages/torchvision/models/quantization/mobilenetv2.py", line 6, in <module>
+    from torch.ao.quantization import QuantStub, DeQuantStub
+ModuleNotFoundError: No module named 'torch.ao'

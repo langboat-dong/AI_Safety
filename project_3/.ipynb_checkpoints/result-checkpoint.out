@@ -1,0 +1,8 @@
+MNIST training dataset:
+num_correct:  1896
+accuracy of adv imgs in training set: 0.031600
+
+Traceback (most recent call last):
+  File "test_adversarial_examples.py", line 63, in <module>
+    test_dataloader = DataLoader(mnist_dataset_test, batch_size=batch_size, shuffle=False, num_workers=1)
+NameError: name 'mnist_dataset_test' is not defined
